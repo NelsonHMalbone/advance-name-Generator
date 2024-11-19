@@ -24,7 +24,17 @@ while True:
     userInput = input('Enter your choice (1-4): ')
 
     match userInput:
+
         # getting the total amount of items in a the txt file
         case '1':
             total_names = len(content)
             print(total_names)
+
+        # add a new name to list
+        case '2':
+            addName = input('Enter a name to add: ')
+
+            with open(fileTXT, 'a') as file:
+                file.writelines('\n'.join(addName))
+
+            print(f'A new name has been added to list: {addName}')

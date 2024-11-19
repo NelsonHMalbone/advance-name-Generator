@@ -21,3 +21,10 @@ project link: https://substack.com/home/post/p-151545509?source=queue
 
 ##### Credits 
 project creator is Ardit Sulce
+
+#### updates/problems
+11-19: accomplished the goal of getting the total items
+and the txt file. started to work on the second option in
+ran into the problem of adding to the file. my thoughts is that im using
+the wrong method and should be using a append option instead
+of writing to file.
